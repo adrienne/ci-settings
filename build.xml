@@ -29,6 +29,7 @@
 	<!-- ============================================  -->
 	<target name="sniff" description="Check source code follows the CodeIgniter guidelines." depends="clean,lint">
 		<echo>Sniffing...</echo>
+		<!-- standard: http://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer -->
 		<phpcodesniffer format="full" standard="CodeIgniter" showWarnings="true" haltonerror="true">
 			 <fileset dir="libraries">
 				<include name="**/*.php"/>
