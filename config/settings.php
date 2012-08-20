@@ -33,7 +33,7 @@ $config['settings']['key_field'] = 'key';
 |
 */
 
-$config['settings']['value_field'] = 'strValue';
+$config['settings']['value_field'] = 'value';
 
 
 /*
