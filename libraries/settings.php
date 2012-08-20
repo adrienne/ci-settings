@@ -145,9 +145,9 @@ class Settings {
 	 */
 	private function _initialize(array $config = array())
 	{
-		foreach ($config as $c_key => $c_value) {
-			if (in_array($c_key, $this->_config_whitelist)) {
-				$this->{$c_key} = $value;
+		foreach ($config as $config_key => $config_value) {
+			if (in_array($config_key, $this->_config_whitelist)) {
+				$this->{$config_key} = $config_value;
 			}
 		}
 	}
